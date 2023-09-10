@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Ubuntu;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../../fonts/ubuntu-font-family-0.80/Ubuntu-B.ttf)
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    border-bottom: 2px solid black;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+header a {
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+header a:hover {
+    text-decoration: underline;
+}
+.mainlink {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.headernav {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.headernav a {
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.view {
+    display: flex;
+    margin-top: 60px;
+    background-color: rgb(255, 234, 238);
+    justify-content: space-around;
+    height: 700px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.viewtxt {
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.viewtxt h1 {
+    font-size: 60px;
+}
+.viewtxt p {
+    font-size: 25px;
+    color: rgb(84, 84, 84);
+}
+.viewtxt span {
+    color: black;
+}
+.view img {
+    width: 600px;
+    height: 480px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.viewbuttons button {
+    height: 45px;
+    border: 2px solid black;
+    background-color: white;
+    font-family: Ubuntu;
+    color: black;
+    font-size: 15px;
+    transition: all .2s;
+}
+.viewbuttons button:nth-child(2) {
+    margin-left: 10px;
+    background: inherit;
+}
+.viewbuttons button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.getstarted h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 550px;
+    font-size: 30px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.info img {
+    width: 100px;
+    height: 100px;
+}
+.infotxt {
+    display: flex;
+    width: 45%;
+    margin: 20px;
+} 
+.infotxt p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+.getstarted h2 {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.getstarted button {
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    border: 2px solid black;
+    font-family: Ubuntu;
+    font-size: 15px;
+    transition: all .2s;
+    color: black;
+    background-color: white;
+    display: block;
+    text-align: center;
+}
+.getstarted button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+}
+footer p {
+    padding-top: 40px;
+}
+.footernav a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.footernav a:hover {
+    text-decoration: underline;
+}
+.footernav {
+    padding-bottom: 40px;
+    padding-top: 20px;
+}

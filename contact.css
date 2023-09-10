@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Ubuntu;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../../fonts/ubuntu-font-family-0.80/Ubuntu-B.ttf)
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    border-bottom: 2px solid black;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+header a {
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+header a:hover {
+    text-decoration: underline;
+}
+.mainlink {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.headernav {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.headernav a {
+    padding: 0px 20px;
+    font-size: 20px;
+}
+main {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    height: 800px;
+    background-color: pink;
+    padding: 0px 200px;
+}
+.text {
+    width: 40%;
+    margin-top: 100px;
+}
+.text a {
+    color: black;
+}
+.text p {
+    font-size: 18px;
+}
+.text h2 {
+    font-size: 40px;
+}
+.inputs {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.inputs input {
+    width: 300px;
+    border: 2px solid black;
+    height: 40px;
+    padding: 0px 15px;
+}
+.inputs input:focus {
+    border: 3px solid black;
+}
+textarea {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 15px 15px;
+}
+textarea:focus {
+    border: 3px solid black;
+}
+.inputs button {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border: 2px solid black;
+    font-family: Ubuntu;
+    color: black;
+    background: #fff;
+    transition: all .2s;
+}
+.inputs button:hover {
+    color: white;
+    background: #000;
+    cursor: pointer;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+footer p {
+    padding-top: 40px;
+}
+.footernav a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.footernav a:hover {
+    text-decoration: underline;
+}
+.footernav {
+    padding-bottom: 40px;
+    padding-top: 20px;
+}

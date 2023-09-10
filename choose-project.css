@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Ubuntu;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../../fonts/ubuntu-font-family-0.80/Ubuntu-B.ttf)
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    border-bottom: 2px solid black;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+header a {
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+header a:hover {
+    text-decoration: underline;
+}
+.mainlink {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.headernav {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.headernav a {
+    padding: 0px 20px;
+    font-size: 20px;
+}
+main {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.main-head {
+    border-bottom: 2px solid black;
+    padding-bottom: 40px;
+}
+.main-head h1 {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 40px;
+}
+.main-head p {
+    margin-top: -50px;
+    text-align: center;
+}
+.source {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.source a {
+    color: black;
+    padding: 0px 10px;
+    transition: .2s
+}
+.source a:hover {
+    color: grey;
+}
+.resources {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+.resources h2 {
+    text-align: left;
+}
+.recreate li {
+    padding: 5px 0px;
+}
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+}
+.colors p {
+    padding: 10px 10px;
+}
+.colorpalette p:nth-child(1) span {
+    background: #fbffa7;
+    border-radius: 50%;
+    padding: 1px 10px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.colorpalette p span:after {
+    content: ' ';
+}
+.colorpalette p:nth-child(2) span {
+    background: #ff764d;
+    border-radius: 50%;
+    padding: 1px 10px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.colorpalette p:nth-child(3) span {
+    background: #b1c5ff;
+    border-radius: 50%;
+    padding: 1px 10px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.colorpalette p:nth-child(4) span {
+    background: #d5b3ff;
+    border-radius: 50%;
+    padding: 1px 10px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.colorpalette p:nth-child(5) span {
+    background: #b6ffc0;
+    border-radius: 50%;
+    padding: 1px 10px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.colorpalette p:nth-child(6) span {
+    background: #0000ff;
+    border-radius: 50%;
+    padding: 1px 10px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+}
+.links a {
+    padding: 7px 0px;
+    color: black;
+    transition: .2s;
+}
+.links a:hover {
+    color: grey;
+}
+.difficulty {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #000;
+    padding-bottom: 30px;
+}
+.difficulty img {
+    width: 100%;
+    height: 100%;
+}
+.difficulty div {
+    height: 150px;
+    padding: 5px 10px;
+    margin-top: 30px;
+}
+.challenge {
+    color: white;
+    background: #000;
+    width: 300px;
+}
+.easy {
+    background: grey;
+    color: white;
+    width: 300px;
+}
+.hard {
+    border: 2px solid black;
+    width: 200px;
+}
+.hard a {
+    color: black;
+}
+footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+footer p {
+    padding-top: 40px;
+}
+.footernav a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.footernav a:hover {
+    text-decoration: underline;
+}
+.footernav {
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
